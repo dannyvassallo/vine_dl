@@ -10,6 +10,7 @@ A proof of concept ruby Vine video ripper.
   bundle install
 ```
 
+Create a `.env` modeled after `.env.example`.
 Add your Vine login credentials to the `.env` file.
 
 ```shell
