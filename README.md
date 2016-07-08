@@ -1,11 +1,11 @@
 #Ruby Vine Downloader
 
-A proof of concept Vine video ripper.
+A proof of concept ruby Vine video ripper.
 
 ####How To Use
 
 ```shell
-  git clone http://github.com/dannyvassallo/vine-downloader.git
+  git clone http://github.com/dannyvassallo/vine_downloader.git
   cd vine-downloader
   bundle install
 ```
