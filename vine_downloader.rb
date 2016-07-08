@@ -24,7 +24,6 @@ module VineDownloader
     end
   end
 
-
   def self.download_vine(video_url, video_name, directory)
     directory_exists?(directory)
     File.open("#{directory}/#{video_name}", "wb") do |saved_file|
