@@ -19,11 +19,7 @@ module VineDl
         Dir.mkdir(directory)
       end
 
-      File.open(path, "wb") do |write_stream|
-        open(video_url, "rb") do |read_stream|
-          write_stream.write(read_stream.read)
-        end
-      end
+      write_to_file(path)
 
       path
     end
@@ -41,6 +37,18 @@ module VineDl
     private
 
     attr_reader :client_video
+
+    def write_to_file(path)
+      File.open(path, "wb") do |write_stream|
+        download_and_write_to_stream(write_stream)
+      end
+    end
+
+    def download_and_write_to_stream(write_stream)
+      open(video_url, "rb") do |read_stream|
+        write_stream.write(read_stream.read)
+      end
+    end
 
   end
 end

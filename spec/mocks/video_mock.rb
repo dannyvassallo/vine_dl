@@ -5,9 +5,10 @@ module VineDl
       VineDl::ClientVideoMock.new({})
     end
 
-    def download(path, options = {})
-      raise Errno::ENOENT, "no such file or directory" unless options.fetch(:create_directory, false)
-      path
+    private
+
+    def download_and_write_to_stream(write_stream)
+      # Do nothing.
     end
 
   end
