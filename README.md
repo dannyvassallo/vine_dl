@@ -5,7 +5,7 @@ A Vine video ripper written in Ruby.
 ####How To Use
 
 ```shell
-  git clone http://github.com/dannyvassallo/vine_downloader.git
+  git clone http://github.com/dannyvassallo/vine_dl.git
   cd vine-downloader
   bundle install
 ```
