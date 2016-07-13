@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dannyvassallo/vine_dl.svg?branch=gem)](https://travis-ci.org/dannyvassallo/vine_dl)
+
 # VineDl
 
 A rubygem to auth in and rip a users Vine videos.
