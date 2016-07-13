@@ -1,11 +1,11 @@
-#Ruby Vine Downloader
+#VineDl
 
-A proof of concept ruby Vine video ripper.
+A Vine video ripper written in Ruby.
 
 ####How To Use
 
 ```shell
-  git clone http://github.com/dannyvassallo/vine_downloader.git
+  git clone http://github.com/dannyvassallo/vine_dl.git
   cd vine-downloader
   bundle install
 ```
@@ -15,7 +15,7 @@ Create a `.env` modeled after `.env.example`.
 Add your Vine login credentials to the `.env` file.
 
 ```shell
-  ruby vine_downloader.rb
+  ruby vine_dl.rb
 ```
 
 The script will create a `downloads` directory in the root
@@ -33,7 +33,8 @@ rake
 rake test
 ```
 
-You can configure `.env` to disable mocks in tests. This requires valid credentials in ENV.
+You can configure `.env` to disable mocks in tests.
+This requires valid credentials in ENV.
 
 ```shell
 VINE_USERNAME=YOUR_REAL_VINE_USERNAME
