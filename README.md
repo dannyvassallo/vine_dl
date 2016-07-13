@@ -12,6 +12,14 @@ Add this line to your application's Gemfile:
 gem 'vine_dl'
 ```
 
+OR
+
+Install from github:
+
+```ruby
+gem 'vine_dl', :git => 'git://github.com/dannyvassallo/vine_dl.git'
+```
+
 And then execute:
 
     $ bundle
