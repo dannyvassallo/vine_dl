@@ -70,6 +70,7 @@ bundle exec rake release
 When this command runs successfully, it does two things:
 
 1) Your git repository will be tagged with the version number.
+
 2) Your gem will be accessible through RubyGems.org..
 
 ## Contributing
