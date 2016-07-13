@@ -1,6 +1,8 @@
 require "bundler/gem_tasks"
-require "rspec/core/rake_task"
 
-RSpec::Core::RakeTask.new(:spec)
+desc "Run tests"
+task :test do
+  Dir["#{__dir__}/spec/**/*_spec.rb"].each(&method(:load))
+end
 
-task :default => :spec
+task :default => :test
