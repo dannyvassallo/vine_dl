@@ -61,6 +61,17 @@ NO_MOCKS=false
 NO_DELETE_DOWNLOADED_FILES=false
 ```
 
+## Deploying to RubyGems
+
+```shell
+bundle exec rake release
+```
+
+When this command runs successfully, it does two things:
+
+1) Your git repository will be tagged with the version number.
+2) Your gem will be accessible through RubyGems.org..
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/dannyvassallo/vine_dl. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
