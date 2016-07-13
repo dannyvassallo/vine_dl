@@ -1,22 +1,20 @@
-GEM
-  remote: http://rubygems.org/
+PATH
+  remote: .
   specs:
-    dotenv (2.1.1)
-    faraday (0.9.2)
-      multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.10.0)
-      faraday (>= 0.7.4, < 0.10)
-    multipart-post (2.0.0)
-    vine_client (0.0.7)
-      faraday (~> 0.8)
-      faraday_middleware (~> 0.8)
+    vine_dl (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.4.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  dotenv
-  vine_client
+  bundler (~> 1.12)
+  rake (~> 10.0)
+  vine_dl!
 
 BUNDLED WITH
    1.12.5

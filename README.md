@@ -1,52 +1,41 @@
-#VineDl
+# VineDl
 
-A Vine video ripper written in Ruby.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/vine_dl`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-####How To Use
+TODO: Delete this and the text above, and describe your gem
 
-```shell
-  git clone http://github.com/dannyvassallo/vine_dl.git
-  cd vine-downloader
-  bundle install
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'vine_dl'
 ```
 
-Create a `.env` modeled after `.env.example`.
+And then execute:
 
-Add your Vine login credentials to the `.env` file.
+    $ bundle
 
-```shell
-  ruby vine_dl.rb
-```
+Or install it yourself as:
 
-The script will create a `downloads` directory in the root
-of the project folder with the returned video files in it.
+    $ gem install vine_dl
 
-####Development
+## Usage
 
-###Running tests
+TODO: Write usage instructions here
 
-Simply run the rake command.
+## Development
 
-```shell
-rake
-# or
-rake test
-```
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-You can configure `.env` to disable mocks in tests.
-This requires valid credentials in ENV.
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
-```shell
-VINE_USERNAME=YOUR_REAL_VINE_USERNAME
-VINE_PASSWORD=YOUR_REAL_VINE_PASSWORD
-NO_MOCKS=false
-```
+## Contributing
 
-You can tell the tests not to delete the files it downloads.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/vine_dl. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-```shell
-VINE_USERNAME=YOUR_REAL_VINE_USERNAME
-VINE_PASSWORD=YOUR_REAL_VINE_PASSWORD
-NO_MOCKS=false
-NO_DELETE_DOWNLOADED_FILES=false
-```
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+

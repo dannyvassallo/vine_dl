@@ -1,5 +1,5 @@
-module VineDl
-end
+require "vine_dl/version"
 
-require_relative "vine_dl/user"
-require_relative "vine_dl/video"
+module VineDl
+  # Your code goes here...
+end

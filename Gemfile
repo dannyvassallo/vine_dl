@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gem "vine_client"
-gem "dotenv"
+# Specify your gem's dependencies in vine_dl.gemspec
+gemspec
