@@ -37,9 +37,6 @@ user.videos.each do |video|
 end
 ```
 
-The gem will create a `downloads` directory in the root
-of the project folder with the returned video files in it.
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
