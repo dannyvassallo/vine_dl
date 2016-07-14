@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dannyvassallo/vine_dl.svg?branch=gem)](https://travis-ci.org/dannyvassallo/vine_dl)
+[![Build Status](https://travis-ci.org/dannyvassallo/vine_dl.svg?branch=gem)](https://travis-ci.org/dannyvassallo/vine_dl)[![Gem Version](https://badge.fury.io/rb/vine_dl.svg)](https://badge.fury.io/rb/vine_dl)
 
 # VineDl
 
@@ -79,9 +79,8 @@ bundle exec rake release
 
 When this command runs successfully, it does two things:
 
-1) Your git repository will be tagged with the version number.
-
-2) Your gem will be accessible through RubyGems.org..
+ 1. Your git repository will be tagged with the version number.
+ 2. Your gem will be accessible through RubyGems.org.
 
 ## Contributing
 
