@@ -31,7 +31,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-VineDl.login_and_get_videos("VINE_USERNAME", "VINE_PASSWORD")
+user = VineDl::User.new("your_vine_username", "your_vine_password")
+user.videos.each do |video|
+  video.download("custom/path/to/wherever.mp4")
+end
 ```
 
 The gem will create a `downloads` directory in the root
