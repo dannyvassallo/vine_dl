@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dannyvassallo/vine_dl.svg?branch=master)](https://travis-ci.org/dannyvassallo/vine_dl)[![Gem Version](https://badge.fury.io/rb/vine_dl.svg)](https://badge.fury.io/rb/vine_dl)
+[![Build Status](https://travis-ci.org/dannyvassallo/vine_dl.svg?branch=master)](https://travis-ci.org/dannyvassallo/vine_dl)[![Gem Version](https://badge.fury.io/rb/vine_dl.svg)](https://badge.fury.io/rb/vine_dl)![](http://ruby-gem-downloads-badge.herokuapp.com/vine_dl?type=total&color=brightgreen)
 
 ![alt text](https://s3-us-west-2.amazonaws.com/vinedl/vinedllogo.png "logo")
 
